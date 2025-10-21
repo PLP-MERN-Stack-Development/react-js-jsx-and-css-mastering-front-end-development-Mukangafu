@@ -26,6 +26,21 @@ View the source code on GitHub: [GitHub Repository](https://github.com/PLP-MERN-
 
 ---
 
+## 🖼️ Screenshots
+
+### Home Page
+![Home Page](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mukangafu/blob/main/images/home.png)
+
+### Add New Task
+![Add Task](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mukangafu/blob/main/images/add-task.png)
+
+### Task Status
+![Task Status](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mukangafu/blob/main/images/task-status.png)
+
+> Replace the image filenames with your actual uploaded screenshots in the `images` folder.
+
+---
+
 ## 🛠️ Technologies Used
 
 - React.js (v19)
@@ -39,28 +54,24 @@ View the source code on GitHub: [GitHub Repository](https://github.com/PLP-MERN-
 
 ## 💻 Installation & Setup
 
- **Clone the repository**
+1. **Clone the repository**
 
 ```bash
 git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mukangafu.git
 
-Navigate to the project directory
+2. Navigate to the project directory
 
 cd react-js-jsx-and-css-mastering-front-end-development-Mukangafu
 
-
-Install dependencies
+3. Install dependencies
 
 npm install
 
-
-Start the development server
+4. Start the development server
 
 npm run dev
 
-
-The app will run on http://localhost:5173
- by default.
+**.  The app will run on http://localhost:5173 by default.**
 
 🚀 Deployment
 
@@ -96,8 +107,7 @@ The app is responsive and works on desktop, tablet, and mobile devices.
 
 This project is licensed under the MIT License.
 
-👤 Author
 
-Daniel Muturi
+**👤 Author
 
-
+Daniel Muturi**
