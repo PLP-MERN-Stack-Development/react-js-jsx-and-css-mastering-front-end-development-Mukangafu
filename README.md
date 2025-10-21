@@ -1,16 +1,103 @@
-# React + Vite
+# My Health App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React.js** application for managing tasks and health activities, styled with **Tailwind CSS**. The app allows users to add, edit, and track tasks with status indicators (Pending, Active, Completed) and live alerts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+Check out the live application here: [My Health App](https://my-health-appvercelapp.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+View the source code on GitHub: [GitHub Repository](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mukangafu)
+
+---
+
+## ⚡ Features
+
+- Add, edit, and delete tasks
+- Track task progress (Pending, Active, Completed)
+- Real-time alerts for task start
+- Responsive design with Tailwind CSS
+- Fully functional task manager interface
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js (v19)
+- Tailwind CSS (v3)
+- Framer Motion for animations
+- Lucide Icons
+- Vite for project bundling
+- Git & GitHub for version control
+
+---
+
+## 💻 Installation & Setup
+
+ **Clone the repository**
+
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Mukangafu.git
+
+Navigate to the project directory
+
+cd react-js-jsx-and-css-mastering-front-end-development-Mukangafu
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+
+The app will run on http://localhost:5173
+ by default.
+
+🚀 Deployment
+
+This app is deployed on Vercel:
+
+Sign up/log in to Vercel
+
+Connect your GitHub repository
+
+Vercel automatically builds and deploys the app
+
+Access the live app via: My Health App
+
+📋 Usage
+
+Click Add New Task to create a task.
+
+Set Start Time and End Time for your task.
+
+Tasks will automatically update their status (Pending → Active → Completed) based on the current time.
+
+Alerts notify you when a task starts.
+
+Edit tasks by double-clicking on them.
+
+🔧 Notes
+
+Make sure your browser allows notifications for live task alerts.
+
+The app is responsive and works on desktop, tablet, and mobile devices.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👤 Author
+
+Daniel Muturi
+
+
