@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import TaskManager from "./components/TaskManager";
 import ApiData from "./components/ApiData";
@@ -20,18 +20,18 @@ const Home = () => (
         Stay informed, stay healthy, and build better habits with our interactive app.
       </p>
       <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-        <a
-          href="/tasks"
+        <Link
+          to="/tasks"
           className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
         >
           📝 Manage Your Tasks
-        </a>
-        <a
-          href="/api"
+        </Link>
+        <Link
+          to="/api"
           className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
         >
           📰 Browse Health Posts
-        </a>
+        </Link>
       </div>
     </section>
 
@@ -88,18 +88,18 @@ const Home = () => (
         Ready to take control of your health and productivity? Explore the app now!
       </p>
       <div className="flex justify-center gap-4 flex-wrap">
-        <a
-          href="/tasks"
+        <Link
+          to="/tasks"
           className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
         >
           📝 Manage Tasks
-        </a>
-        <a
-          href="/api"
+        </Link>
+        <Link
+          to="/api"
           className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
         >
           📰 View Health Posts
-        </a>
+        </Link>
       </div>
     </section>
   </div>
