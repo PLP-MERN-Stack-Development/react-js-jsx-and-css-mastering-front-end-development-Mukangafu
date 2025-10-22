@@ -6,7 +6,7 @@ import ApiData from "./components/ApiData";
 import Footer from "./components/Footer";
 import { ThemeProvider } from "./context/ThemeContext";
 
-// Updated Home page component
+// Home Page Component
 const Home = () => (
   <div className="max-w-6xl mx-auto px-4 py-16 space-y-16">
 
@@ -37,9 +37,7 @@ const Home = () => (
 
     {/* Why This App Section */}
     <section className="text-center max-w-4xl mx-auto space-y-6">
-      <h2 className="text-3xl font-semibold text-gray-800 dark:text-gray-100">
-        Why This App?
-      </h2>
+      <h2 className="text-3xl font-semibold text-gray-800 dark:text-gray-100">Why This App?</h2>
       <p className="text-gray-600 dark:text-gray-300 text-lg">
         This app combines productivity with wellness by allowing you to manage daily tasks while staying informed with 
         up-to-date health advice. Our health posts provide evidence-based tips on nutrition, exercise, mental well-being, 
